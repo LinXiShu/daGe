@@ -1,0 +1,162 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img{margin:0; padding:0; }
+ul,li{list-style:none;}
+a{text-decoration:none;}
+i{text-decoration:none;}
+*{margin:0;padding:0;}
+.z12{font-size:12px;}
+.z14{font-size:14px;}
+.z16{font-size:16px;}
+.z36{font-size:0.5625rem;}
+.z40{font-size:0.625rem;}
+.z50{font-size:0.78125rem;}
+.z22{font-size:0.34375rem;}
+.red{color:#a21f25;}
+.sky{color:skyblue;}
+.fl{float:left;}
+.fr{float:right;}
+.over{overflow:hidden;}
+.red{color:red;}
+.nones{font-size:none;}
+.textw{font-weight:bold;}
+.bc58{color:#58bc58;}
+.padd-t50{padding-top:50px;}
+
+
+
+a:hover{color:red;}
+a{color:black;}
+
+.cont{width:1000px;  margin:0 auto;;}
+
+header{
+    width:100%;
+    background:#F4F4F6;
+    .cont{
+        height:33px;
+        font-size:14px;
+        .shangCheng{
+        float:left;
+        width:98px;
+        height:33px;
+        background: #fff;
+        text-align:center;
+        line-height:33px;
+        }
+        .shouJi{
+        float:left;
+        width:98px;
+        height:33px;
+        text-align:center;
+        line-height:33px;
+        }
+        .div_c :hover {
+            background: #fff;
+    }
+       
+         .header_r{
+            float:right;
+            .header_dengLu{
+           float:left;
+                a{
+                float:left;
+                margin-top:8px;
+                padding:0 10px 0 10px;
+            }
+            .aaa{border-right:1px solid #666;}
+        }       
+                .div_r{
+                    float:left;
+                    a{
+                    float:left;
+                    padding:0 12px 0 12px;
+                    line-height:33px;
+                    position:relative;
+
+                }      
+                    .header_div_1{
+                        width:104px;
+                        height:33px;
+                        position:absolute;
+                        background:#fff;
+                        top:33px;
+                        display:none;
+                    }
+                    
+                    .header_div_3{
+                        width:200px;
+                        height:66px;
+                        position:absolute;
+                        background:#fff;
+                        top:33px;
+                        display:none;
+                        
+                        right:193px;
+                    }
+                    .header_div_4{
+                        width:100px;
+                        height:66px;
+                        position:absolute;
+                        background:#fff;
+                        top:33px;
+                        display:none;
+                        
+                        right:125px;
+                    }
+                    } 
+                .div01:hover .header_div_1{
+                    display:block;
+                    a{padding-left:20px;}
+                }
+                .div03:hover .header_div_3{display:block;}
+                .div04:hover .header_div_4{display:block;}
+                .div_r:hover{background:#fff;}
+           }
+}
+}
+
+.nav {
+  width: 100%; }
+  .nav .cont {
+    height: 70px;
+    .h1a{
+      width:182px;
+      height:42px;
+      background:url('../img/xiaoXiao.fw.png')no-repeat -158px -205px;
+      margin-top:14px;border-right:1px solid #e6e6e6;
+    }
+    .dengLu{
+        font-size:20px;
+        color:#666666;
+        margin-top:20px;
+        margin-left:30px;
+    }
+  }
+
+    .neiRong{
+       width: 100%;
+    height: 553px;
+    position: relative;
+        overflow:hidden;
+            .aa_2{
+            width: 100%;
+            height: 553px;
+
+             background: url('../img/3268f3e855694bb6a5ec2030b13f4077.jpg')     no-repeat top center;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: 0;
+    }
+    }
+
+
+    footer{
+        width:100%;
+        .cont{
+            height:100px;
+            p{
+                .piGu{float:left;padding-left:30px;}
+                margin-top:30px;
+            }
+        }
+    }

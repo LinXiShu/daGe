@@ -1,0 +1,263 @@
+.over{overflow:hidden;}
+// .red{background: red;}
+
+.lunBoTu{
+    width:100%;
+    background: #F8F8F8;
+    .cont{
+        width:1100px;
+        height:480px;
+        .tu_la{
+            float:left;
+            width:107px;
+            height:479px;
+        }
+
+        .tua{
+            float:right;
+            width:944px;
+            height:479px;
+            background: red;
+            position:relative;
+
+            .lbt_spans{
+                width:400px;
+                height:50px;
+                float:right;
+
+                position:absolute;
+                right:0;
+                top:450px;
+
+                span{
+                    margin-left:20px;
+                    display:block;
+                    width:25px;
+                    height:25px;
+                    border-radius:50px 50px 50px 50px;
+                    background: black;
+                    color:#fff;
+                    float:right;
+                    text-align:center;
+                }
+            }
+
+        }
+    }
+}
+
+.reMen{
+    width:100%;
+    background: #F8F8F8;
+    .cont{
+    height:555px;
+        .reMen_div{
+            line-height:50px;
+            background: #F8F8F8;
+            border-bottom:2px solid black;
+        }
+        .reMen_div2{height:370px;background: #fff;
+            ul{
+                li{
+                    float:left;
+                    a{display:block;width:268px;height:323px;
+                        margin:0 15px 0 12px;margin-top:24px;}
+                    .a_1{background:url('../img/xiaoXiao.fw.png')no-repeat -264px -305px;}
+                    .a_2{background:url('../img/xiaoXiao.fw.png')no-repeat -579px -305px;}
+                    .a_3{background:url('../img/xiaoXiao.fw.png')no-repeat -897px -305px;}
+                    .a_4{background:url('../img/xiaoXiao.fw.png')no-repeat -1218px -305px;}
+                }
+            }
+        }
+
+        .reMen_div3{height:144px;background: #fff;
+                div{float:left;}
+                position:relative;
+            .zz{width:55px;height:92px;position:absolute;}
+
+            .zuo{background:url('../img/xiaoXiao.fw.png')no-repeat -132px -711px;left:0;top:20px;}
+            .div_c{width:1060px;height:130px;margin-left:70px;}
+
+            .you{background:url('../img/xiaoXiao.fw.png')no-repeat -223px -711px;right:0;top:20px;}
+        }
+    }
+}//-----------------------
+
+    .nvXie{
+        width:100%;
+        background: #F8F8F8;
+        .cont{
+            height:532px;
+            .nvXie_div{height:40px;line-height:39px;
+                    .fr{background: black;color:#fff;}
+            }
+            .nvXie_box{
+                border: 1px solid #D1D3D4;
+                background: #fff;
+                width:1172px;
+                height:439px;
+                padding:20px 10px 0 10px;
+                                .box_l{width:205px;height:440px;font-size:12px;color:#fff;text-align:center;line-height:60px;
+                                    .afa{background:url('../img/imgs/01.jpg')no-repeat;}
+                a{width:102px;height:64px;float:left;background:black;color:#fff;}
+                    .box_l_l{border-right:1px solid #fff;}
+                    .box_l_r{}
+                                }
+                                .box_c{width:350px;height:440px;
+                    margin-left:6px;
+
+                                }
+                                .box_r{width:590px;height:440px;
+                    margin-left:6px;
+                    ul{
+                        margin-left:30px;
+                        li{
+                            float:left;
+                            a{
+                            width:180px;height:210px;
+                            background:url('../img/asd/apop.png')no-repeat;
+                            border-bottom:2px solid black;
+                            }
+                        }
+                    }
+                                }
+                                div{float:left;}
+
+            }
+        }
+    }
+
+    // --------------------------
+    
+       .nanXie{
+        width:100%;
+        background: #F8F8F8;
+        .cont{
+            height:532px;
+            .nanXie_div{height:40px;line-height:39px;
+                    .fr{background: black;color:#fff;}
+            }
+            .nanXie_box{
+                border: 1px solid #D1D3D4;
+                background: #fff;
+                width:1172px;
+                height:439px;
+                padding:20px 10px 0 10px;
+                .box_l{width:205px;height:440px;font-size:12px;color:#fff;text-align:center;line-height:60px;
+                    .afa{background:url('../img/imgs/01.jpg')no-repeat;}
+                a{width:102px;height:64px;float:left;background:black;color:#fff;}
+                    .box_l_l{border-right:1px solid #fff;}
+                    .box_l_r{}
+                }
+                .box_c{width:350px;height:440px;
+                    margin-left:6px;
+
+                }
+                .box_r{width:590px;height:440px;
+                    margin-left:6px;
+                    ul{
+                        margin-left:30px;
+                        li{
+                            float:left;
+                            a{
+                            width:180px;height:210px;
+                            background:url('../img/asd/apop.png')no-repeat;
+                            border-bottom:2px solid black;
+                            }
+                        }
+                    }
+                }
+                div{float:left;}
+
+            }
+        }
+    }
+
+       .yunDongXie{
+        width:100%;
+        background: #F8F8F8;
+        .cont{
+            height:532px;
+            .yunDongXie_div{height:40px;line-height:39px;
+                    .fr{background: black;color:#fff;}
+            }
+            .yunDongXie_box{
+                border: 1px solid #D1D3D4;
+                background: #fff;
+                width:1172px;
+                height:439px;
+                padding:20px 10px 0 10px;
+                .box_l{width:205px;height:440px;font-size:12px;color:#fff;text-align:center;line-height:60px;
+                    .afa{background:url('../img/imgs/01.jpg')no-repeat;}
+                a{width:102px;height:64px;float:left;background:black;color:#fff;}
+                    .box_l_l{border-right:1px solid #fff;}
+                    .box_l_r{}
+                }
+                .box_c{width:350px;height:440px;
+                    margin-left:6px;
+
+                }
+                .box_r{width:590px;height:440px;
+                    margin-left:6px;
+                    ul{
+                        margin-left:30px;
+                        li{
+                            float:left;
+                            a{
+                            width:180px;height:210px;
+                            background:url('../img/asd/apop.png')no-repeat;
+                            border-bottom:2px solid black;
+                            }
+                        }
+                    }
+                }
+                div{float:left;}
+
+            }
+        }
+    }
+
+
+       .erTongXie{
+        width:100%;
+        background: #F8F8F8;
+        .cont{
+            height:532px;
+            .erTongXie_div{height:40px;line-height:39px;
+                    .fr{background: black;color:#fff;}
+            }
+            .erTongXie_box{
+                border: 1px solid #D1D3D4;
+                background: #fff;
+                width:1172px;
+                height:439px;
+                padding:20px 10px 0 10px;
+                .box_l{width:205px;height:440px;font-size:12px;color:#fff;text-align:center;line-height:60px;
+                    .afa{background:url('../img/imgs/01.jpg')no-repeat;}
+                a{width:102px;height:64px;float:left;background:black;color:#fff;}
+                    .box_l_l{border-right:1px solid #fff;}
+                    .box_l_r{}
+                }
+                .box_c{width:350px;height:440px;
+                    margin-left:6px;
+
+                }
+                .box_r{width:590px;height:440px;
+                    margin-left:6px;
+                    ul{
+                        margin-left:30px;
+                        li{
+                            float:left;
+                            a{
+                            width:180px;height:210px;
+                            background:url('../img/asd/apop.png')no-repeat;
+                            border-bottom:2px solid black;
+                            }
+                        }
+                    }
+                }
+                div{float:left;}
+
+            }
+        }
+    }

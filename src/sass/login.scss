@@ -1,0 +1,65 @@
+        .nR_table{
+            float:right;
+            position:absolute;
+            // z-index:100;
+            top:50px;right:227px;
+            .nR_table_box{
+            // position:absolute;
+                width:351px;
+                height:424px;
+                padding:25px 15px;
+                background: #fff;
+                z-index:100px;
+                .aa_1{
+                    width:173px;height:40px;
+                    float:left;
+                    text-align:center;
+                    line-height:40px;
+                }
+                .nR_table_box_1{background: black;
+                                
+                                color:#fff;
+                }
+                .nR_table_box_2{background: #F3F3F3;
+                                color:block;
+                }
+                    
+                    input{
+                        margin:30px 10px 0 10px;
+                        width:311px;
+                        height:38px;
+                    }
+                    
+                    .wangJiMiMa{
+                        text-decoration:underline;
+                        font-size:14px;
+                        // color:blue;
+                        line-height:50px;
+                        margin-left:270px;
+                    }
+                    .btn_1{
+                        background:#E1373A;
+                        font-size:18px;
+                        border:none;
+                        color:#fff;
+                        width:312px;
+                        height:39px;
+                        margin-left:12px;
+                    }
+                    .dengLu_c{
+                        font-size:14px;
+                        color:#999;
+                        margin-top:10px;
+                    }
+                    .H5_h5{
+                        padding-top:10px;
+                        
+                        a{width:35px;height:35px;float:left;padding-left:17px;}
+                        .h5_1{background:url('../img/xiaoXiao.fw.png')no-repeat 0 -657px;}
+                        .h5_2{background:url('../img/xiaoXiao.fw.png')no-repeat 0 -725px;}
+                        .h5_3{background:url('../img/xiaoXiao.fw.png')no-repeat 0 -793px;}
+                        .h5_4{background:url('../img/xiaoXiao.fw.png')no-repeat 0 -854px;}
+                        .h5_5{background:url('../img/xiaoXiao.fw.png')no-repeat 0 -657px;}
+                    }
+            }
+        }
