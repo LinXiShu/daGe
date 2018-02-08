@@ -1,3 +1,7 @@
+
+
+.black{background: black}
+
 .over{overflow:hidden;}
 // .red{background: red;}
 
@@ -35,13 +39,12 @@
                     width:25px;
                     height:25px;
                     border-radius:50px 50px 50px 50px;
-                    background: black;
+                    background: #65bec7;
                     color:#fff;
                     float:right;
                     text-align:center;
                 }
             }
-
         }
     }
 }
@@ -55,6 +58,7 @@
             line-height:50px;
             background: #F8F8F8;
             border-bottom:2px solid black;
+
         }
         .reMen_div2{height:370px;background: #fff;
             ul{
@@ -66,18 +70,37 @@
                     .a_2{background:url('../img/xiaoXiao.fw.png')no-repeat -579px -305px;}
                     .a_3{background:url('../img/xiaoXiao.fw.png')no-repeat -897px -305px;}
                     .a_4{background:url('../img/xiaoXiao.fw.png')no-repeat -1218px -305px;}
-                }
+                } 
             }
         }
 
+    // -------------------------------------------------
+  //----------div_c_long . -----------------------
+//------------------------------------------------------
         .reMen_div3{height:144px;background: #fff;
                 div{float:left;}
                 position:relative;
             .zz{width:55px;height:92px;position:absolute;}
 
             .zuo{background:url('../img/xiaoXiao.fw.png')no-repeat -132px -711px;left:0;top:20px;}
-            .div_c{width:1060px;height:130px;margin-left:70px;}
 
+            .div_c{width:1060px;height:130px;margin-left:70px;overflow:hidden;position:relative;
+
+            .div_c_long{width:2120px;height:130px;
+                position:absolute;
+                a{
+                    float:left; 
+                    margin-right:70px;
+                    ul{
+
+                        li{
+
+                        }
+                    }
+                }
+            }
+        }
+ 
             .you{background:url('../img/xiaoXiao.fw.png')no-repeat -223px -711px;right:0;top:20px;}
         }
     }
@@ -128,7 +151,7 @@
     }
 
     // --------------------------
-    
+     
        .nanXie{
         width:100%;
         background: #F8F8F8;

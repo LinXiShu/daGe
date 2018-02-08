@@ -1,0 +1,172 @@
+.z#e6e6e6 {
+  color: #e6e6e6; }
+
+.z#999 {
+  color: #999; }
+
+.yellow {
+  color: #FF7F00; }
+
+nav {
+  width: 100%; }
+  nav .cont {
+    background: #fff;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px; }
+    nav .cont .fla {
+      color: blue; }
+      nav .cont .fla:hover {
+        color: red; }
+
+.marg {
+  margin-bottom: 20px; }
+
+.xiangQing {
+  width: 100%; }
+  .xiangQing .cont {
+    height: 621px; }
+    .xiangQing .cont .xQ_l {
+      height: 621px;
+      float: left;
+      width: 482px; }
+      .xiangQing .cont .xQ_l .xQ_l_t {
+        font-size: 14px; }
+        .xiangQing .cont .xQ_l .xQ_l_t .xQ_B {
+          border: 1px solid #e6e6e6;
+          margin-bottom: 15px; }
+        .xiangQing .cont .xQ_l .xQ_l_t .xQ_b img {
+          border: 2px solid #e6e6e6; }
+    .xiangQing .cont .xQ_c {
+      height: 621px;
+      float: left;
+      width: 490px;
+      margin-left: 20px; }
+      .xiangQing .cont .xQ_c .xianShi {
+        width: 270px;
+        height: 110px; }
+        .xiangQing .cont .xQ_c .xianShi .xianShi_t {
+          height: 20px;
+          width: 100px;
+          background: url("../img/xiaoXiao.fw.png") no-repeat -1617px -943px;
+          margin-top: 4px; }
+      .xiangQing .cont .xQ_c .xianShi_b {
+        width: 488px;
+        height: 265px;
+        background: #F8F8F8; }
+        .xiangQing .cont .xQ_c .xianShi_b button {
+          width: 123px;
+          height: 37px;
+          border: 2px solid #E60012; }
+        .xiangQing .cont .xQ_c .xianShi_b .xianshi_b_1 {
+          height: 65px;
+          margin-left: 20px; }
+          .xiangQing .cont .xQ_c .xianShi_b .xianshi_b_1 .img_1 {
+            border: 1px solid #e6e6e6; }
+          .xiangQing .cont .xQ_c .xianShi_b .xianshi_b_1 .img_2 {
+            border: 1px solid #e6e6e6; }
+      .xiangQing .cont .xQ_c .xianshi_b_2 {
+        height: 65px;
+        margin-left: 20px; }
+        .xiangQing .cont .xQ_c .xianshi_b_2 span {
+          background: #fff;
+          padding: 2px 8px;
+          border: 1px solid #e6e6e6;
+          width: 34px;
+          height: 18px; }
+      .xiangQing .cont .xQ_c .xianshi_b_3 {
+        height: 65px;
+        margin-left: 20px; }
+        .xiangQing .cont .xQ_c .xianshi_b_3 input {
+          width: 50px;
+          height: 25px; }
+        .xiangQing .cont .xQ_c .xianshi_b_3 .eWM .fuji {
+          position: relative; }
+          .xiangQing .cont .xQ_c .xianshi_b_3 .eWM .fuji:hover .twoWM {
+            display: block; }
+          .xiangQing .cont .xQ_c .xianshi_b_3 .eWM .fuji .twoWM {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: -90px;
+            left: 260px;
+            background: url("../img/erWeiM2.png") no-repeat; }
+      .xiangQing .cont .xQ_c .gW {
+        background: #fff;
+        color: #E60012;
+        font-weight: bold;
+        font-size: 16px;
+        margin-left: 20px; }
+      .xiangQing .cont .xQ_c .gWC {
+        background: #E60012;
+        color: #fff;
+        font-weight: bold;
+        font-size: 16px; }
+  .xiangQing .xQ_r {
+    height: 621px;
+    float: left;
+    width: 174px;
+    margin-left: 20px; }
+    .xiangQing .xQ_r .longTeng {
+      width: 174px;
+      height: 500px;
+      overflow: hidden;
+      position: relative; }
+      .xiangQing .xQ_r .longTeng .longTeng_I {
+        width: 174px;
+        height: 1000px;
+        position: absolute; }
+    .xiangQing .xQ_r .shang {
+      margin-left: 17px;
+      width: 70px;
+      height: 38px; }
+    .xiangQing .xQ_r .xia {
+      margin-right: 17px;
+      width: 70px;
+      height: 38px; }
+
+.xQ_lunbotu {
+  width: 100%; }
+  .xQ_lunbotu .cont {
+    height: 320px; }
+    .xQ_lunbotu .cont span {
+      width: 580px; }
+    .xQ_lunbotu .cont .fr_ll {
+      text-align: right; }
+    .xQ_lunbotu .cont .fc_box .flaa {
+      width: 39px;
+      height: 250px;
+      background: url("../img/zuodianji.png") no-repeat;
+      border: 1px solid #e6e6e6; }
+    .xQ_lunbotu .cont .fc_box .fc {
+      width: 1108px;
+      height: 250px;
+      position: relative;
+      overflow: hidden; }
+      .xQ_lunbotu .cont .fc_box .fc .long {
+        width: 2216px;
+        height: 250px;
+        position: absolute; }
+        .xQ_lunbotu .cont .fc_box .fc .long ul {
+          width: 170px;
+          height: 240px;
+          float: left;
+          margin-right: 20px; }
+    .xQ_lunbotu .cont .fc_box .fraa {
+      width: 39px;
+      height: 250px;
+      background: url("../img/youdianji.png") no-repeat;
+      border: 1px solid #e6e6e6; }
+
+.xQ_photo {
+  width: 100%; }
+  .xQ_photo .cont .longTeng1 {
+    width: 979px;
+    height: 3000px; }
+  .xQ_photo .cont .longTeng2 {
+    width: 210px;
+    height: 2000px; }
+    .xQ_photo .cont .longTeng2 .div_a {
+      display: block;
+      width: 200px;
+      height: 200px; }

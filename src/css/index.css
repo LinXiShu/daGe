@@ -1,3 +1,6 @@
+.black {
+  background: black; }
+
 .over {
   overflow: hidden; }
 
@@ -30,7 +33,7 @@
           width: 25px;
           height: 25px;
           border-radius: 50px 50px 50px 50px;
-          background: black;
+          background: #65bec7;
           color: #fff;
           float: right;
           text-align: center; }
@@ -80,7 +83,16 @@
       .reMen .cont .reMen_div3 .div_c {
         width: 1060px;
         height: 130px;
-        margin-left: 70px; }
+        margin-left: 70px;
+        overflow: hidden;
+        position: relative; }
+        .reMen .cont .reMen_div3 .div_c .div_c_long {
+          width: 2120px;
+          height: 130px;
+          position: absolute; }
+          .reMen .cont .reMen_div3 .div_c .div_c_long a {
+            float: left;
+            margin-right: 70px; }
       .reMen .cont .reMen_div3 .you {
         background: url("../img/xiaoXiao.fw.png") no-repeat -223px -711px;
         right: 0;

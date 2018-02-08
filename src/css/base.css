@@ -37,8 +37,17 @@ i {
 .z22 {
   font-size: 0.34375rem; }
 
+.z24 {
+  font-size: 24px; }
+
+.z30 {
+  font-size: 30px; }
+
 .red {
   color: #a21f25; }
+
+.blue {
+  color: blue; }
 
 .sky {
   color: skyblue; }
@@ -67,6 +76,27 @@ i {
 .padd-t50 {
   padding-top: 50px; }
 
+.over {
+  overflow: hidden; }
+
+.xiaHua {
+  text-decoration: underline; }
+
+.p-top {
+  padding-top: 20px; }
+
+.p-right {
+  padding-right: 20px; }
+
+.p-bottom {
+  padding-bottom: 20px; }
+
+.p-left {
+  padding-left: 20px; }
+
+.black {
+  color: black; }
+
 a:hover {
   color: red; }
 
@@ -79,75 +109,101 @@ a {
 
 header {
   width: 100%;
-  background: #F4F4F6; }
+  background: #f6f6f6; }
   header .cont {
     height: 33px;
     font-size: 14px; }
-    header .cont .shangCheng {
-      float: left;
-      width: 98px;
+    header .cont .box_l {
+      width: 400px;
       height: 33px;
-      background: #fff;
-      text-align: center;
-      line-height: 33px; }
-    header .cont .shouJi {
-      float: left;
-      width: 98px;
-      height: 33px;
-      text-align: center;
-      line-height: 33px; }
-    header .cont .div_c :hover {
-      background: #fff; }
-    header .cont .header_r {
-      float: right; }
-      header .cont .header_r .header_dengLu {
-        float: left; }
-        header .cont .header_r .header_dengLu a {
-          float: left;
-          margin-top: 8px;
-          padding: 0 10px 0 10px; }
-        header .cont .header_r .header_dengLu .aaa {
-          border-right: 1px solid #666; }
-      header .cont .header_r .div_r {
-        float: left; }
-        header .cont .header_r .div_r a {
-          float: left;
-          padding: 0 12px 0 12px;
-          line-height: 33px;
-          position: relative; }
-        header .cont .header_r .div_r .header_div_1 {
-          width: 104px;
-          height: 33px;
-          position: absolute;
-          background: #fff;
-          top: 33px;
-          display: none; }
-        header .cont .header_r .div_r .header_div_3 {
-          width: 200px;
-          height: 66px;
-          position: absolute;
-          background: #fff;
-          top: 33px;
-          display: none;
-          right: 193px; }
-        header .cont .header_r .div_r .header_div_4 {
-          width: 100px;
-          height: 66px;
-          position: absolute;
-          background: #fff;
-          top: 33px;
-          display: none;
-          right: 125px; }
-      header .cont .header_r .div01:hover .header_div_1 {
-        display: block; }
-        header .cont .header_r .div01:hover .header_div_1 a {
-          padding-left: 20px; }
-      header .cont .header_r .div03:hover .header_div_3 {
-        display: block; }
-      header .cont .header_r .div04:hover .header_div_4 {
-        display: block; }
-      header .cont .header_r .div_r:hover {
+      float: left; }
+      header .cont .box_l a {
+        text-align: center;
+        line-height: 32px; }
+      header .cont .box_l .box_l_1 {
+        float: left;
+        width: 98px;
+        height: 33px;
         background: #fff; }
+      header .cont .box_l :hover {
+        background: #fff; }
+      header .cont .box_l .box_l_2 {
+        float: left;
+        width: 100px;
+        height: 33px;
+        position: relative; }
+        header .cont .box_l .box_l_2 .big_box {
+          position: absolute;
+          width: 250px;
+          height: 100px;
+          background: #fff;
+          display: none; }
+        header .cont .box_l .box_l_2:hover .big_box {
+          display: block; }
+    header .cont .box_r {
+      float: right; }
+      header .cont .box_r .DL_box {
+        float: left;
+        padding: 0 14px;
+        height: 33px; }
+        header .cont .box_r .DL_box a {
+          float: left;
+          line-height: 33px;
+          padding: 0 15px;
+          color: red; }
+      header .cont .box_r .flaaa {
+        line-height: 31px; }
+      header .cont .box_r .GWC_box {
+        float: left;
+        padding: 0 14px;
+        height: 33px; }
+        header .cont .box_r .GWC_box .a_aaa {
+          float: left;
+          padding: 0 10px;
+          line-height: 33px; }
+        header .cont .box_r .GWC_box .box_a1 {
+          position: relative; }
+          header .cont .box_r .GWC_box .box_a1 .box_aa1 {
+            width: 92px;
+            height: 40px;
+            background: #fff;
+            display: none;
+            position: absolute;
+            right: 0; }
+          header .cont .box_r .GWC_box .box_a1:hover .box_aa1 {
+            display: block;
+            color: black; }
+        header .cont .box_r .GWC_box :hover {
+          background: #fff; }
+        header .cont .box_r .GWC_box .box_a3 {
+          position: relative; }
+          header .cont .box_r .GWC_box .box_a3 .box_aa3 {
+            width: 200px;
+            height: 50px;
+            background: #fff;
+            display: none;
+            position: absolute;
+            right: 0; }
+          header .cont .box_r .GWC_box .box_a3:hover .box_aa3 {
+            display: block;
+            color: black;
+            line-height: 25px; }
+        header .cont .box_r .GWC_box :hover {
+          background: #fff; }
+        header .cont .box_r .GWC_box .box_a4 {
+          position: relative; }
+          header .cont .box_r .GWC_box .box_a4 .box_aa4 {
+            width: 100px;
+            height: 60px;
+            background: #fff;
+            display: none;
+            position: absolute;
+            right: 0; }
+          header .cont .box_r .GWC_box .box_a4:hover .box_aa4 {
+            display: block;
+            color: black; }
+        header .cont .box_r .GWC_box :hover {
+          background: #fff; }
 
 .souSuoLan {
   width: 100%;
@@ -226,12 +282,16 @@ header {
         font-weight: bold;
         font-size: 20px; }
     .daoHangLan .cont .twoLan .twoLan-Lan {
-      position: relative; }
+      position: relative;
+      width: 202px;
+      height: 40px; }
+      .daoHangLan .cont .twoLan .twoLan-Lan:hover ul {
+        display: block; }
       .daoHangLan .cont .twoLan .twoLan-Lan ul {
         position: absolute;
         top: 40px;
         border: 1px solid #999;
-        display: block; }
+        display: none; }
         .daoHangLan .cont .twoLan .twoLan-Lan ul li {
           background: #F8F8F8;
           padding: 10px 0 0 10px;

@@ -6,48 +6,56 @@
     <link rel="stylesheet" type="text/css" href="../css/login_base.css" />
     <link rel="stylesheet" type="text/css" href="../css/login.css" />
     <link rel="stylesheet" type="text/css" href="../font/iconfont.css">
+
+    <script src="../js/require.js" data-main="../js/login"></script>
 </head>
 <body>
     <header>
         <div class="cont">
-            <div class="div_c">
-            <a href="#" class="shangCheng">时尚商城</a>
-            </div>
-            <div class="div_c">
-                <a href="#" class="shouJi"><i class="iconfont icon-iconfontshouji aa"></i>手机优购<i class="iconfont icon-arrowdown"></i></a>  
-            </div>
-            
+           <div class="box_l">  <!-- 父级 -->
+               <a href="#"; class="box_l_1">时尚商城</a>
+               <!-- 子级 -->
+               <a href="#"; class="box_l_2">手机购物
+               <div class="big_box">asdas</div>
+               </a> 
 
-        
-        <div class="header_r">
-                <div class="header_dengLu">
-                    <a href="#" class="red">登录</a>
-                    <a href="#" class="aaa red">注册&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+           </div>
 
-                </div>
-                <div class="div_r div01">
-                <a href="#" class="header_1">&nbsp;&nbsp;我的优购<i class="iconfont icon-arrowdown"></i></a>
-                <div class="header_div_1"><a href="#">我的收藏</a></div>
-                </div >
+           <div class="box_r">
+               <div class="DL_box">
+                   <a href="#">登录</a>
+                   <a href="#">注册</a>
+                   <div class="fl"></div>
+               </div>
+               <div class="fl flaaa">|</div>
+               <div class="GWC_box">
 
-                <div class="div_r div02">
-                <a href="#" class="header_2">我的订单</a>
-                <div  class="header_div_2">
-                </div>
-                </div>
+                   <a href="#" class="box_a1 a_aaa">我的优购<i class="iconfont icon-arrowdown"></i>
+                            <div class="box_aa1">&nbsp;&nbsp;&nbsp;我的收藏</div>
+                   </a>
 
-                <div class="div_r div03">
-                <a href="#" class="header_3">公告<i class="iconfont icon-arrowdown"></i></a>
-                <div  class="header_div_3"><a href="#">关闭分享频道</a>
-                <a href="#">启动自动防御浏览器</a></div>
-                </div>
+                   <a href="#" class="box_a2 a_aaa">我的购物车
+                   </a>
 
-                <div class="div_r div04">
-                <a href="#" class="header_4">更多<i class="iconfont icon-arrowdown"></i></a>
-                <div  class="header_div_4"><a href="#">快递查询</a><a href="#">帮助中心</a></div>
-                </div>
-            </div>
+                   <a href="#" class="box_a3 a_aaa">公告<i class="iconfont icon-arrowdown"></i>
+                            <div class="box_aa3">
+                                &nbsp;&nbsp;分享您的购物车<br />
+                                &nbsp;&nbsp;启动浏览器主动防御策略
+                            </div>
+                   </a>
+
+                   <a href="#" class="box_a4 a_aaa">更多<i class="iconfont icon-arrowdown"></i>
+                            <div class="box_aa4 z12">
+                              &nbsp;&nbsp;&nbsp;&nbsp; 关心您的宝宝<br />
+                              &nbsp;&nbsp;&nbsp;&nbsp;  帮助？
+                            </div>
+                   </a>
+                   
+               </div>
+           </div>
         </div>
+
+
     </header>
     
     <nav class="nav">
@@ -56,23 +64,24 @@
             <div class="dengLu fl">用户登录</div>
         </div>
     </nav>
-    
+
     <main class="neiRong">
         <div class="cont">
             <a href="#" class="aa_2"></a>
         </div>
         <div class="nR_table">
             <div class="nR_table_box">
-                <a href="file:///D:/site/src/html/login.html#" class="nR_table_box_1 aa_1 z12">账户密码登录</a>
-                <a href="file:///D:/site/src/html/reg.html#" class="nR_table_box_2 aa_1 z12">手机号快捷登录</a>
+                <a href="http://localhost:1808/src/html/login.html" class="nR_table_box_1 aa_1 z12">账户密码登录</a>
+                <a href="http://localhost:1808/src/html/reg.html" class="nR_table_box_2 aa_1 z12">手机号快捷登录</a>
 
-                 
-                    <input type="text" class="zhangHao iconfont icon-search" placeholder="手机号/会员名称/邮箱"/>
+                    <input type="text" class="zhangHao iconfont icon-search" placeholder="手机号/会员名称/邮箱" id="username" />
 
-                    <input type="password" class="miMa" placeholder="请输入密码"/>
+                    <input type="password" class="miMa" placeholder="请输入密码" id="password" />
                     <a href="#" class="wangJiMiMa">忘记密码?</a>
                     
-                    <button class="btn_1">点击登录</button>
+                    <button class="btn_1 btnLogin" >点击登录</button>
+
+
                     <br />
                     <br />
                     <center>
