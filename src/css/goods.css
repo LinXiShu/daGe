@@ -170,3 +170,8 @@ nav {
       display: block;
       width: 200px;
       height: 200px; }
+
+#time {
+  width: 200px;
+  padding-left: 72px;
+  line-height: 14px; }

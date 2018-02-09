@@ -3,7 +3,7 @@
 * @Author: Marte
 * @Date:   2018-02-06 15:20:57
 * @Last Modified by:   Marte
-* @Last Modified time: 2018-02-08 23:09:59
+* @Last Modified time: 2018-02-09 14:48:29
 */
 
 let div_c_long = document.getElementById('div_c_long');
@@ -17,7 +17,7 @@ let div = document.createElement('div');
             console.log(data);
             console.log(div);
             div.innerHTML = data.map(item=>{
-                    return `<a href="#"><ul>
+                    return `<a href="http://localhost:1808/src/html/goods.html"><ul>
                         <img src="${item.imgs}" class="fl" width="80px" height="80px"></li>
                         <li>${item.name}</li>
                         <li class="red textw z12"><span>￥</span>${item.price}</li>

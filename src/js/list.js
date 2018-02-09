@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2018-02-05 21:08:25
 * @Last Modified by:   Marte
-* @Last Modified time: 2018-02-09 12:00:53
+* @Last Modified time: 2018-02-09 14:51:47
 */
 
 let cont_SR = document.getElementById('cont_SR');
@@ -20,7 +20,7 @@ require(['config'],function(){
         console.log(div);
 
             div.innerHTML = data.map(item=>{
-                        return `<ul><a href="#">
+                        return `<ul><a href="http://localhost:1808/src/html/goods.html">
                         <li><img src="../${item.imgs}" class="fl" width="260px"height="260px"></li>
                         <li>${item.name}</li>
                         <li class="red textw"><span>￥</span>${item.price}</li>
@@ -37,3 +37,4 @@ require(['config'],function(){
 })
 })
 })
+

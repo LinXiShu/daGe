@@ -4,7 +4,7 @@
 * @Author: Marte
 * @Date:   2018-02-06 09:42:21
 * @Last Modified by:   Marte
-* @Last Modified time: 2018-02-09 10:16:22
+* @Last Modified time: 2018-02-09 15:31:47
 */
 
       // ----------------------
@@ -266,6 +266,53 @@ var aitems = setInterval(
     }
 },20);
 } 
+
+
+
+
+// 行走的时间
+// 
+    
+    var time = document.getElementById('time');
+
+
+    // 页面加载显示时间
+    autoPlay();
+    // setInterval()返回一个id标识
+    var timer = setInterval(autoPlay,1000);//1
+    console.log(timer);
+
+    function autoPlay(){
+        //得到运行这行代码时的时间
+        //年月日，时分秒，毫秒，星期，时区
+        var now = new Date();
+
+
+        // 获取月份
+        var month = now.getMonth()+1;
+
+        // 获取日
+        var date = now.getDate();
+
+        // 获取星期：0-6（星期日-星期6）
+        var week = now.getDay();
+
+
+        // 获取时分秒
+        var h = now.getHours();
+        var m = now.getMinutes();
+        var s = now.getSeconds();
+
+        // 补0操作
+        h = h<10 ? '0'+h : h;
+        m = m<10 ? '0'+m : m;
+        s = s<10 ? '0'+s : s;
+
+        time.innerHTML =  month + '月' + date + '日 '+ h + ':' + m + ':' + s 
+
+    }
+
+
 
 // --------------------------------------
 
