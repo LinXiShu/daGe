@@ -1,0 +1,66 @@
+/* 
+* @Author: Marte
+* @Date:   2018-02-02 08:20:54
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-02-02 14:59:59
+*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,input{margin:0; padding:0; }
+ul,li{list-style:none;}
+a{text-decoration:none;display:block;}
+i{}
+
+*{margin:0;padding:0;}
+.z36{font-size:0.5625rem;}
+.z40{font-size:0.625rem;}
+.z50{font-size:0.78125rem;}
+.z22{font-size:0.34375rem;}
+.red{color:#a21f25;}
+.sky{color:skyblue;}
+.fl{float:left;}
+.fr{float:right;}
+.over{overflow:hidden;}
+a{color:black;}
+a:hover{color:red;}
+
+
+.cont{width:1190px;margin:0 auto;}
+
+header{width:100%;background: #F4F4F6;border-bottom: 1px solid #E6E6E6;}
+    header .cont{height:33px;position:relative;}
+        header .cont .shangCheng,.shouJi{width:110px;height:27px;background: #fff;font-size:14px;text-align:center;padding-top:6px;float:left;border:1px solid #E6E6E6;}
+
+            header .cont .shouJi{background:#E6E6E6;}
+            header .cont .shouJi .aa{color:red;}
+            header .cont .shouJi:hover{background: #fff;}
+            header .cont  span{position:absolute;left:111px;top:30px;display:;border:1px solid #E6E6E6;}
+            header .cont  span .shouJi_div{width:324px;height:150px;background:#fff url('../img/erWeiMa.png')no-repeat 20px 14px;padding:20px;}
+            header .cont  span .shouJi_div img{position:absolute;right:25px;top:15px;}
+            header .cont  span .shouJi_div .spana{left:40px;top:130px;}
+            header .cont  span .shouJi_div .spanb{left:259px;top:130px;}
+            header .cont  span .shouJi_div a{margin-left:100px;left:50px;width:115px;height:35px;}
+            header .cont  span .shouJi_div #header_a{background: url('../img/app.png');}
+            header .cont  span .shouJi_div #header_b{background: url('../img/app2.png');margin-top:10px;}
+            
+            header .cont  .shouJi_span{display:none;}
+            header .cont .shouJi:hover #adad{display:block;}
+            
+            header .cont .header_dengLu a{width:100px;height:30px;float:right;}
+
+
+.souSuoLan{width:100%;background: #F8F8F8;}
+    .souSuoLan .cont{height:124px;}
+
+.daoHangLan{width:100%;}
+    .daoHangLan .cont{height:;}
+
+/*------------  假装是内容  ----------*/
+
+.daoGou{width:100%;}
+    .daoGou .cont{height:;}
+
+.youQingLianJie{width:100%;}
+    .youQingLianJie .cont{height:;}
+
+footer{width:100%;}
+    footer .cont{height:;}
+
