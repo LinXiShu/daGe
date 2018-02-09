@@ -1,0 +1,65 @@
+/* 
+* @Author: Marte
+* @Date:   2018-02-02 11:35:54
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-02-02 21:05:36
+*/
+
+.cont{width:1190px;margin:0 auto;}
+
+header{width:100%;background: #F4F4F6;border-bottom: 1px solid #E6E6E6;}
+    header .cont{height:33px;}
+        header .cont .shangCheng,.shouJi{width:110px;height:28px;background: #fff;font-size:14px;text-align:center;padding-top:4px;float:left;border:1px solid #E6E6E6;}
+
+            header .cont .shouJi{background:#E6E6E6;}
+            header .cont .shouJi .aa{color:red;}
+            header .cont .shouJi:hover{background: #fff;}
+            
+            header .cont .header_box span{float:left;margin-top:5px;border-right:1px solid #999;padding-right:20px;width:100px;}
+            header .cont .header_box span a{float:left;font-size:14px;color:red;}
+
+            header .cont .header_box .ada{margin-left:18px;padding-left:8px;}
+            header .cont .header_box{float:right;}
+            header .cont .header_box .aa{float:left;}
+            header .cont .header_box .aa a{float:left;font-size:14px;padding-top:6px;height:26px;padding-left:5px;padding-right:8px;padding-left:10px;} 
+            header .cont .header_box .nav_1:hover{background: #fff;}
+            header .cont .header_box .nav_2:hover{background: #fff;}
+            header .cont .header_box .nav_3:hover{background: #fff;}
+
+                header .cont .header_box{position:relative;}
+                header .cont .header_box .nav_1 .div_1{position:absolute;width:98px;height:33px;background: #fff;top:31px;left:139px;display:none;}
+                    header .cont .header_box .nav_1:hover .div_1{display:block;}
+                    header .cont .header_box .nav_1 .div_1 a{margin-left:10px;}
+
+
+                header .cont .header_box .nav_2 .div_2{position:absolute;width:200px;height:55px;background: #fff;top:32px;right:62px;display:none;}
+
+                header .cont .header_box .nav_2:hover .div_2{display:block;}
+                header .cont .header_box .nav_2 .div_2 a{font-size:14px;padding-top: 0;}
+
+                header .cont .header_box .nav_3 .div_3{position:absolute;width:150px;height:55px;background: #fff;top:32px;right:0px;display:none;}
+                header .cont .header_box .nav_3:hover .div_3{display:block;}
+                header .cont .header_box .nav_3 .div_3 a{float:left;padding-top:18px;}
+
+
+.souSuoLan{width:100%;background: #F8F8F8;}
+    .souSuoLan .cont{height:124px;}
+        .souSuoLan .cont h1{background:url('../img/h1.png')no-repeat;width:200px;height:120px;float:left;}
+        .souSuoLan .cont div input{float:left;height:36px;width:439px;}
+        .souSuoLan .cont div button{background: #000;color:#fff;width:80px;height:40px;border:0;}
+        .souSuoLan .cont .div_c{display:block;margin-top:;margin-left:30px;}
+
+.daoHangLan{width:100%;}
+    .daoHangLan .cont{height:;}
+
+/*------------  假装是内容  ----------*/
+
+.daoGou{width:100%;}
+    .daoGou .cont{height:;}
+
+.youQingLianJie{width:100%;}
+    .youQingLianJie .cont{height:;}
+
+footer{width:100%;}
+    footer .cont{height:;}
+

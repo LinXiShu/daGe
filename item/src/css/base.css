@@ -1,0 +1,39 @@
+/* 
+* @Author: Marte
+* @Date:   2018-02-02 08:20:54
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-02-02 21:21:55
+*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,input{margin:0; padding:0; }
+ul,li{list-style:none;}
+a{text-decoration:none;display:block;}
+i{}
+
+*{margin:0;padding:0;}
+.z36{font-size:0.5625rem;}
+.z40{font-size:0.625rem;}
+.z50{font-size:0.78125rem;}
+.z22{font-size:0.34375rem;}
+.red{color:#a21f25;}
+.sky{color:skyblue;}
+.fl{float:left;}
+.fr{float:right;}
+.over{overflow:hidden;}
+a{color:black;}
+a:hover{color:red;}
+
+/*.cont{width:1190px;margin:0 auto;}*/
+
+header{
+    .cont{
+        width:1190px;
+        margin:0 auto;
+            .shangCheng{
+                
+            }
+            .shouJi{
+
+            }
+
+    }
+}
