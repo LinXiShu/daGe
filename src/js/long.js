@@ -1,20 +1,20 @@
 
+
 /* 
 * @Author: Marte
 * @Date:   2018-02-06 09:42:21
 * @Last Modified by:   Marte
-* @Last Modified time: 2018-02-08 22:59:52
+* @Last Modified time: 2018-02-09 10:16:22
 */
+
       // ----------------------
     // 获取 mysql 数据。
   // 
 // ----------------------------------------------------
 var longTeng_ll = document.getElementById('longTeng_I');
-console.log(longTeng_ll);
 var longs = document.getElementById('long');
 var long_s = document.getElementById('long_chang');
 var long_xia = document.getElementById('longTeng2');
-
 
    let red = jQuery(function($){
         $.ajax({
@@ -54,8 +54,6 @@ var long_xia = document.getElementById('longTeng2');
             console.log(div_Teng);
             longTeng_ll.appendChild(div_Teng);
             console.log(longTeng_ll);
-
-
 // =====================================================
        }
     })

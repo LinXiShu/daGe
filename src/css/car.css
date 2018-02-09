@@ -309,8 +309,29 @@ header {
   width: 100%;
   background: #F4F4F4; }
   .main .cont {
-    height: 800px;
-    background: #fff; }
+    background: #F4F4F4; }
+    .main .cont .zhongJian {
+      background: #fff; }
+      .main .cont .zhongJian div ul {
+        margin-left: 10px;
+        width: 1170px;
+        height: 180px;
+        border: 2px solid #F4F4F4; }
+        .main .cont .zhongJian div ul a {
+          display: block;
+          float: left; }
+        .main .cont .zhongJian div ul .a2 {
+          width: 300px;
+          margin-top: 130px;
+          margin-left: 30px; }
+        .main .cont .zhongJian div ul .a3 {
+          width: 300px;
+          margin-top: 130px;
+          margin-left: 30px; }
+        .main .cont .zhongJian div ul .a4 {
+          width: 300px;
+          margin-top: 130px;
+          margin-left: 30px; }
 
 .daoGou {
   width: 100%;

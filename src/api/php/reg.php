@@ -1,6 +1,4 @@
 
-
-
 <?php
     // 引入其他文件
     require('connect.php');//include 'connect.php'
@@ -22,5 +20,7 @@
         }else{
             echo "fail";
         }
-    }echo "fail";
+    }echo "success";
+
 ?>
+

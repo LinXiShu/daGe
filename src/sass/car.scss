@@ -33,10 +33,10 @@ i{text-decoration:none;}
 .p-bottom{padding-bottom:20px;}
 .p-left{padding-left:20px;}
 
-
 .black{color:black;}
 
 a:hover{color:red;}
+
 a{color:black;}
 
 .cont{width:1190px;  margin:0 auto;}
@@ -100,9 +100,6 @@ header{
         }
     }
 }
-
-
-
 
 
 
@@ -227,9 +224,21 @@ header{
     .main{
         width:100%;
         background:#F4F4F4;
+
         .cont{
-        height:800px;
-        background:#fff;
+        background:#F4F4F4;
+            .zhongJian{
+                background: #fff;
+                div{
+                    ul{margin-left:10px;width:1170px;height:180px;border:2px solid #F4F4F4;
+                        a{display:block;float:left;}
+                       
+                        .a2{width:300px;margin-top:130px;margin-left:30px;}
+                        .a3{width:300px;margin-top:130px;margin-left:30px;}
+                        .a4{width:300px;margin-top:130px;margin-left:30px;}
+                    }
+                }
+            }
         }
     }
 

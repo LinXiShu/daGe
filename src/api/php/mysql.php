@@ -4,7 +4,7 @@
  * @Author: Marte
  * @Date:   2018-02-06 21:32:13
  * @Last Modified by:   Marte
- * @Last Modified time: 2018-02-08 20:08:50
+ * @Last Modified time: 2018-02-09 13:47:02
  */
 
 // php 连接数据库
@@ -13,7 +13,7 @@
     
     $conn->set_charset('utf8');
    
-   $result = $conn-> query('select * from goods');
+    $result = $conn-> query('select * from goods');
 
     $row = $result->fetch_all(MYSQLI_ASSOC);
 
